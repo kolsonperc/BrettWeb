@@ -1,5 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
+  font-size: 1em;
 }
 
 h1 {
@@ -10,13 +11,16 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 30px;
 }
 
 h3 {
   font-weight: 700;
   font-size: 1.5em;
 }
+
 
 a {
   color: black;
@@ -51,4 +55,75 @@ header nav {
 nav ul li {
   display: inline-block;
   padding-left: 2em;
+}
+
+/* Main Banner */
+.maintitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  height: 700px;
+  background-image: url("../../resources/media/brettbanner.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.maintitle h1 {
+  color: rgb(255, 255, 255);
+}
+
+
+
+/* Biography */
+.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20%;
+}
+
+.bio p {
+  width: 40%;
+  padding: 2em;
+}
+
+.bio img {
+  width: 25%;
+  padding: 2em;
+}
+
+/* Contact */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
+
+.contact-header {
+  background-color: grey;
+}
+
+.info {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+footer span {
+  padding: 10px;
+}
+
+footer i {
+  padding: 10px;
 }
